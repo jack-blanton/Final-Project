@@ -21,8 +21,9 @@ gameAmount = gameAmount + 1;
 averageGuesses = guessAmount / gameAmount
 alert(`good job! the number was ${bot}`)
 alert(`Your average amount of guesses to get the number is ${averageGuesses}`)
-alert(`Game ${gameAmount + 1}`)
 guess = undefined;
+if(confirm("Play again?") == true){
+alert(`Game ${gameAmount + 1}`)
 guessinggame()
-}
+}}
 guessinggame()
