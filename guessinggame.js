@@ -9,16 +9,16 @@ function guessinggame(){
     if(guess == undefined){
             guess = Number(prompt("Pick a number 1-100"))
             guessAmount = guessAmount + 1;
-            tempguess = tempGuess + 1;
+            tempGuess = tempGuess + 1;
             console.log(typeof(guess))}
      else if (guess > bot){
         guess = Number(prompt("Too large. Guess again!"))
-        guessAmount = guessAmount + 1;}
-         tempguess = tempGuess + 1;
+        guessAmount = guessAmount + 1;
+         tempGuess = tempGuess + 1;}
      else{
         guess = Number(prompt("Too small. Guess again!"))
         guessAmount = guessAmount + 1;
-         tempguess = tempGuess + 1;
+        tempGuess = tempGuess + 1;
         console.log(guess)}
     }
 gameAmount = gameAmount + 1;
