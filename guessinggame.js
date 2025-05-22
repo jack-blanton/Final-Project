@@ -4,7 +4,7 @@ let guess = undefined;
 let averageGuesses = 0;
 function guessinggame(){
     let tempGuess = 0;
-    let bot = Math.round(Math.random()*100) + 1
+    let bot = Math.ceil(Math.random()*100) 
     while(guess !== bot){
     if(guess == undefined){
             guess = Number(prompt("Pick a number 1-100"))
